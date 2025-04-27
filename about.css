@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff;
+}
+.top-banner {
+    background-color: #e53935;
+    color: #fff;
+    text-align: center;
+    padding: 8px 0;
+    font-size: 14px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.logo {
+    font-weight: bold;
+    font-size: 18px;
+}
+nav {
+    display: flex;
+    align-items: center;
+}
+nav a {
+    margin: 0 12px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+.header-right input {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.header-right button {
+    margin-left: 10px;
+    color: #fff;
+    background-color: #e53935;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.our-story {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 80px;
+}
+.our-story-text {
+    width: 550px;
+}
+.our-story-text h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.our-story-text p {
+    font-size: 14px;
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 16px;
+}
+.our-story-img {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.our-story-img img {
+    max-width: 100%;
+    height: auto;
+}
+.team {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 60px 80px;
+    background-color: #f9f9f9;
+}
+.team-member {
+    flex: 1;
+    text-align: center;
+}
+.team-member img {
+    max-width: 220px;
+    border-radius: 6px;
+}
+.team-member h3 {
+    margin: 12px 0 4px;
+    font-size: 18px;
+}
+.team-member p {
+    color: #888;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+.team-member .socials i {
+    margin: 0 6px;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+}
+.our-story-text p{
+    width: 350px;
+}
+.our-story-img img{
+    width: 500px;
+    height: 400px;
+    margin-right:  250px;
+}
+.team-member img {
+    width: 370px;
+    height: 430px;
+}
+.img2 {
+    width: 450px;
+    height: 430px;
+}
+.custom-footer{
+    background-color: #db4444;
+    color: #fff;
+    padding: 40px 20px 20px;
+} 
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}  
+.footer-column h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.footer-column h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}  
+.footer-column p{
+    margin: 5px 0;
+    font-size: 14px;
+} 
+.subscribe-form{
+    display: flex;
+    margin-top: 10px;
+    color: black;
+} 
+.subscribe-form input{
+    padding: 8px;
+    border: 1px solid #fff;
+    width: 150px;
+    color: black;
+}
+.copyright{
+    text-align: center;
+}
+
+
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+.btn-login{
+    padding: 5px 10px;
+    border: 1px solid #d93939;
+    background-color: #DB4444;
+    color: white;
+    border-radius: 4px;
+}

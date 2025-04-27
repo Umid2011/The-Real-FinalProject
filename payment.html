@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./payment.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="top-banner">
+        Summer sale for all swim suit and free express delivery - OFF 50% 
+        <a href="">ShopNow</a>
+    </div>
+    <div class="top-line"></div>
+    <header>
+      <div class="logo">E-commerce</div>
+      <nav>
+        <ul>
+          <li><a class="a1" href="/index.html">Home</a></li>
+          <li><a class="a1" href="/contact.html">Contact</a></li>
+          <li><a class="a1" href="/about.html">About</a></li>
+          <li><a class="a1" href="/signup.html">Sign up</a></li>
+          <li><a class="a1" href="/shop.html">Shop</a></li>
+        </ul>
+      </nav>
+      <div class="search">
+        <input class="inp1" type="text" placeholder="What are you looking for?">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-basket-shopping"></i>
+        <i onclick="func1()" class="fa-solid fa-user"></i>
+        <form id="myform">
+          <span>username</span>       
+        </form>
+        <button class="btn-login" onclick="func()">Log in</button>
+      </div>
+    </header>
+    <div class="checkout-container">
+        <div class="form-left">
+          <label>First name</label>
+          <input type="text" value="">
+          <label>Last name</label>
+          <input type="text" value="">
+          <label>State</label>
+          <select>
+            <option>Azerbaidjan</option>
+            <option>USA</option>
+            <option>Spain</option>
+            <option>France</option>
+          </select>
+          <label>Address</label>
+          <input type="text" placeholder="Ha">
+          <label>Zip</label>
+          <input type="text">
+          <label>Tel</label>
+          <input type="text" placeholder="+994">
+          <label>Email</label>
+          <input type="email">
+          <label>
+            <input class="inp2" type="checkbox"> Agree to terms and conditions
+          </label>
+        </div>
+        <div class="form-right">
+          <label>Card number</label>
+          <input type="text" placeholder="0000 0000 0000 0000">
+          <div class="card-details">
+            <div>
+              <label>Expiration(MM)</label>
+              <input type="text" placeholder="MM">
+            </div>
+            <div>
+              <label>Expiration(YY)</label>
+              <input type="text" placeholder="YY">
+            </div>
+            <div>
+              <label>Card security code</label>
+              <input type="text" placeholder="XXX">
+            </div>
+          </div>
+          <div class="totals">
+            <p>Subtotal <span>$16390</span></p>
+            <p>Shipping <span>free</span></p>
+            <p>Total <span>$16390</span></p>
+          </div>
+          <button class="place-order">Place order</button>
+        </div>
+      </div>
+      
+    <script src="./payment.js"></script>
+</body>
+</html>

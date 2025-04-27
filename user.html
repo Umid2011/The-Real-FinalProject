@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./user.css">
+    <title>Document</title>
+</head>
+<body>
+  <div class="top-banner">
+    Summer sale for all swim suit and free express delivery - OFF 50% 
+    <a href="#">ShopNow</a>
+  </div>
+
+  <div class="top-line"></div>
+
+  <header>
+    <div class="logo">E-commerce</div>
+    <nav>
+      <ul>
+        <li><a class="a1" href="/index.html">Home</a></li>
+        <li><a class="a1" href="/contact.html">Contact</a></li>
+        <li><a class="a1" href="/about.html">About</a></li>
+        <li><a class="a1" href="/signup.html">Sign up</a></li>
+        <li><a class="a1" href="/shop.html">Shop</a></li>
+      </ul>
+    </nav>
+    <div class="search">
+      <input class="inp1" type="text" placeholder="What are you looking for?" />
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <i class="fa-solid fa-basket-shopping"></i>
+      <i onclick="goToUserPage()" class="fa-solid fa-user"></i>
+      <span class="vvv">username</span>
+      <button id="btn2" onclick="func()" class="btn-login" id="btn2">log in</button>
+    </div>
+  </header>
+
+  <div class="user-details">
+    <button onclick="func2()" class="button">My products for sale</button>
+    <h2>User Details</h2>
+    <p><span>Name:</span> <span id="span1"></span></p>
+    <p><span>Surname:</span> <span id="span2"></span></p>
+    <p><span>Email:</span> <span id="span3"></span></p>
+    <p><span>Username:</span> <span id="span4"></span></p>
+  </div>
+
+  <script src="./user.js"></script>
+</body>
+</html>

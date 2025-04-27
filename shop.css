@@ -1,0 +1,235 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff;
+}
+.top-banner {
+    background-color: #e53935;
+    color: #fff;
+    text-align: center;
+    padding: 8px 0;
+    font-size: 14px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.logo {
+    font-weight: bold;
+    font-size: 18px;
+}
+nav {
+    display: flex;
+    align-items: center;
+}
+nav a {
+    margin: 0 12px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+.header-right input {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.header-right button {
+    margin-left: 10px;
+    color: #fff;
+    background-color: #e53935;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+}
+.custom-footer{
+    background-color: #db4444;
+    color: #fff;
+    padding: 40px 20px 20px;
+} 
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}  
+.footer-column h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.footer-column h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}  
+.footer-column p{
+    margin: 5px 0;
+    font-size: 14px;
+} 
+.subscribe-form{
+    display: flex;
+    margin-top: 10px;
+    color: black;
+} 
+.subscribe-form input{
+    padding: 8px;
+    border: 1px solid #fff;
+    width: 150px;
+    color: black;
+}
+.img4{
+    width: 104px;
+    height: 114px;
+}
+.img5{
+    width: 104px;
+    height: 104px;
+}
+.copyright{
+    text-align: center;
+}
+.social-icons i{
+    padding: 0px 5px;
+}
+.send-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.actions input{
+    width: 150px;
+    margin: 15px 0px;
+}
+.contact-info i{
+    border-radius: 50px;
+    padding: 15px;
+    background-color: red;
+    color: white;
+}
+.shop-container {
+    display: flex;
+    padding: 40px 80px;
+    gap: 40px;
+  }
+  
+.sidebar {
+    width: 250px;
+}
+  
+.sidebar h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+  
+.sidebar input {
+    width: 100px;
+    padding: 8px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+  
+.all-products {
+    background-color: #e53935;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin-bottom: 20px;
+}
+  
+.sidebar h3 {
+    margin-top: 20px;
+}
+  
+.sidebar ul {
+    list-style: none;
+    padding: 0px;
+}
+  
+.sidebar ul li {
+    margin: 8px 0;
+}
+  
+.products-section {
+    flex: 1;
+}
+  
+.sort-bar {
+    text-align: right;
+    margin-bottom: 20px;
+}
+  
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+  
+.product-card {
+    width: 220px;
+    padding: 20px;
+    border: 1px solid #eee;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+  
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+  
+.product-card .price {
+    color: red;
+    font-weight: bold;
+}
+.price {
+    color: red;
+    font-weight: bold;
+}
+  
+.product-card .rating {
+    color: #f0c14b;
+    font-size: 14px;
+}
+  
+.add-to-cart {
+    margin-top: 10px;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+}
+.rating-filter {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 10px;
+}
+  
+.stars {
+    color: gold;
+    font-size: 25px;
+    /* margin: 130px 0px; */
+}
+
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+.btn-login{
+    padding: 5px 10px;
+    border: 1px solid #d93939;
+    background-color: #DB4444;
+    color: white;
+    border-radius: 4px;
+}

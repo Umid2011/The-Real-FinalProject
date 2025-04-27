@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./contact.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="top-banner">
+        Summer sale for all swim suit and free express delivery - OFF 50%! <a href="">ShopNow</a>
+      </div>
+      <div class="navbar">
+        <div class="logo">E-commerce</div>
+        <nav>
+          <a href="/index.html">Home</a>
+          <a href="/contact.html">Contact</a>
+          <a href="/about.html">About</a>
+          <a href="/signup.html">Sign Up</a>
+          <a href="/shop.html">Shop</a>
+        </nav>
+        <div class="search">
+          <input class="inp1" type="text" placeholder="What are you looking for?">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-solid fa-basket-shopping"></i>
+          <i onclick="func1()" class="fa-solid fa-user"></i>
+          <form id="myform">
+            <span>username</span>       
+          </form>
+          <button class="btn-login" onclick="func()">Log in</button>
+        </div>
+      </div>
+      <div class="contact-container">
+        <div class="contact-info">
+        <i class="fa-solid fa-phone"></i> 
+          <h3>Call To Us</h3>
+          <p>We are available 24/7, 7 days a week.</p>
+          <p>Phone: +8801611112222</p>
+          <hr>
+          <i class="fa-solid fa-envelope"></i>
+          <h3>Write To US</h3>
+          <p>Fill out our form and we will contact you within 24 hours.</p>
+          <p>Emails: customer@exclusive.com</p>
+          <p>Emails: support@exclusive.com</p>
+        </div>
+        <div class="form-container">
+          <input type="text" placeholder="Your Name *">
+          <input type="email" placeholder="Your Email *">
+          <input type="text" placeholder="Your Phone *"><br>
+          <textarea placeholder="Your Massage"></textarea><br>
+          <button class="send-button">Send Massage</button>
+        </div>
+      </div>
+      <div class="custom-footer">
+        <div class="footer-container">
+          <div class="footer-column">
+            <h3>Exclusive</h3>
+            <p>Subscribe</p>
+            <p>Get 10% off your first order</p>
+            <form class="subscribe-form">
+              <input type="email" placeholder="Enter your email" />
+            </form>
+          </div>
+          <div class="footer-column">
+            <h4>Support</h4>
+            <p>111 Bijoy sarani, Dhaka,</p>
+            <p>DH 1515, Bangladesh.</p>
+            <p>exclusive@gmail.com</p>
+            <p>+88015-88888-9999</p>
+          </div>
+          <div class="footer-column">
+            <h4>Account</h4>
+            <p>My Account</p>
+            <p>Login / Register</p>
+            <p>Cart</p>
+            <p>Wishlist</p>
+            <p>Shop</p>
+          </div>
+          <div class="footer-column">
+            <h4>Quick Link</h4>
+            <p>Privacy Policy</p>
+            <p>Terms Of Use</p>
+            <p>FAQ</p>
+            <p>Contact</p>
+          </div>
+          <div class="footer-column">
+            <h4>Download App</h4>
+            <p>Save $3 with App New User Only</p>
+            <img src="https://s3-alpha-sig.figma.com/img/9913/87c0/5dd6d44594e01b675513068803e2426d?Expires=1745798400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=V2R6pYbCTKdQmFAttEEG2xvzM-9BYW6LjHrVdll2oXYLlHDbkyj4qAh6as8~Mjdh4YyDmkxrRvEANSPg58Bsf0sqLqeTA~XLQQBSbYpoDzaDaAyxfoq9javj2rjhkQa06whVBP-4lmQ3BJnqJRc-uksO~dCPDKyYseml5Q89i8B2M8P0ed9APFV4DRk4v1~wud2eswqGnIiaDZ~cNe-rAoTLbb9BdmCno5RCdnfwXNXM-Gs8lQ4GLy3XGddOG~oit7akwUrPLgOamMvFtXPJzYn9KgUHZi2L157JXNsoKpH76BiNJjzvXOn9ziZuIs8h2WKzbYdxARYbpHnMUwjN6A__" alt="QR Code" class="qr-img" />
+            <div class="app-icons">
+              <!-- <img class="img4" src="https://s3-alpha-sig.figma.com/img/a61d/4c71/10b18ab55a1e1a07ebf54a46ebb07284?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=A-~u-hc~nVX3Bt4O1g9O~9K0BcwkCQQKnveNUBGhfyqWr3JTrZMiPSS3WqFZ-613YLbtEHi~w4fHVzvJe8kX7kvFg6H-iOaLxf5MuHnpLddOp1QxiHwTOhV3kUycHlsivjkXCFBudgY84gEEgAI2Jwb-2bHZZiyU5ndVS91PpQLottOXN0w~TYdhv6aMYADp8Cd519JKGIWXV9vJ-WOF1hctz9HB3hMeEGZdmvyJxtqrzFf4NKaXf4dZQ8M9csm6G2Msh~NiYDEpslWJUz48GkKJTaewrCQCVpZoHwFzh1owte3lMFL-FVLCjFHKJzCvoxrGAVFcs6M88fJqFlTyhg__" alt="Google Play" /> --> 
+              <!-- <img class="img5" src="https://s3-alpha-sig.figma.com/img/3893/2d5a/ccb54c528f9bcf326ca48ea29bd6d890?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=kSU3mKmH4h5bCXQSDcMV8~xOmvs-Zymix73~zkBMOODyPcMcFjdeNVTmLPPXoe6M5t69O1rusJz3dNIiaEEAwEN5Oli0d99cDL9MSMbepzXLher4KxYeCQYSxIJoahAIoW7KcEZ4FSjj5DuqfHacIqv34tsskM3eWQ4lcgBkbKC2DEMNrCvwH3jED02qZmV3zPC4SbrQCZ0JHTNxO7W324cxeudaPtymcKs~2KObPZU8uHU6p5w3zYba0GoRPvAYgwDtJ-HiLxduUT6bJMPctVMk68d~65QcQ4r2uF6~wwRWRmJxCkfxpIaikpFAF18tRVHIQXa5NwVVAJIgvarVhA__" alt="App Store" /> --> 
+            </div>
+            <div class="social-icons">
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-linkedin-in"></i>
+            </div>
+          </div>
+        </div>
+        <p class="copyright"> Copyright Rimel 2022. All right reserved</p>
+      </div>
+    <script src="./contact.js"></script>
+</body>
+</html>

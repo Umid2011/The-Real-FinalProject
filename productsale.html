@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/productsale.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="top-banner">
+        Summer sale for all swim suit and free express delivery - OFF 50% 
+        <a href="">ShopNow</a>
+    </div>
+    <div class="top-line"></div>
+    <header>
+      <div class="logo">E-commerce</div>
+      <nav>
+        <ul>
+          <li><a class="a1" href="/index.html">Home</a></li>
+          <li><a class="a1" href="/contact.html">Contact</a></li>
+          <li><a class="a1" href="/about.html">About</a></li>
+          <li><a class="a1" href="/signup.html">Sign up</a></li>
+          <li><a class="a1" href="/shop.html">Shop</a></li>
+        </ul>
+      </nav>
+      <div class="search">
+        <input class="inp1" type="text" placeholder="What are you looking for?">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-basket-shopping"></i>
+        <i onclick="func1()" class="fa-solid fa-user"></i>
+        <form id="myform">
+          <span>username</span>       
+        </form>
+        <button class="btn-login" onclick="func()">Log in</button>
+      </div>
+    </header>
+    <div class="main">
+        <button onclick="func2()" class="new-product">New Product</button>
+        <table>
+          <thead>
+            <tr>
+              <th>Id</th>
+              <th>Бренд</th>
+              <th>Модель</th>
+              <th>Категория</th>
+              <th>Изображение</th>
+              <th>Цена</th>
+              <th>Рейтинг</th>
+              <th>Операции</th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+    </div>
+    <div class="cart-total">
+        <h3>Cart total</h3>
+        <p>Subtotal: </p>
+        <p>Shipping: </p>
+        <p>Total:</p>
+        <button onclick="func3()">Proceed to checkout</button>
+    </div>
+    <script src="./productsale.js"></script>
+</body>
+</html>

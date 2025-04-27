@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Segoe UI', sans-serif;
+    justify-content: center;
+}
+.top-banner{
+    background-color: black; 
+    color: #fff;              
+    text-align: center;      
+    padding: 10px 0;         
+    font-size: 14px;       
+}
+.top-banner a{
+    color: #fff;             
+    text-decoration: underline;
+    margin-left: 5px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 15px 5%;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 40px; 
+}
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.a1{
+    text-decoration: none;
+    color: #333;
+    transition: color 0.2s;
+}
+.a1:hover {
+    color: #d93939;
+}
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.search-container input {
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+.search-container button {
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+.search-container button:hover {
+    background-color: #d93939;
+    color: #fff;
+}
+.inp1{
+    padding: 5px 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+}
+.btn-login{
+    padding: 5px 10px;
+    border: 1px solid #d93939;
+    background-color: #DB4444;
+    color: white;
+    border-radius: 4px;
+}
+.button {
+    background-color: #e74c3c;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.button::before {
+    position: absolute;
+    left: 10px;
+    top: 9px;
+    font-size: 18px;
+}
+
+h2 {
+    color: #e74c3c;
+    margin-bottom: 20px;
+}
+
+.user-details p {
+    margin: 5px 0;
+    font-size: 18px;
+}
+.user-details{
+    margin: 0px 150px;
+}
+.user-details span {
+    font-weight: bold;
+}

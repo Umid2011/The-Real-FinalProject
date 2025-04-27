@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./signup.css">
+    <title>Document</title>
+</head>
+<body>
+  <div class="top-banner">
+    Summer sale for all swim suit and free express delivery - OFF 50%  <strong>Shop now</strong>
+  </div>
+
+  <header>
+    <div class="logo">
+      <strong>E-commerce</strong>
+    </div>
+    <nav>
+      <a href="./index.html">Home</a>
+      <a href="./contact.html">Contact</a>
+      <a href="./about.html">Abaut</a>
+      <a href="./signup.html">Sing up</a>
+      <a href="./shop.html">Shop</a>
+    </nav>
+    <!-- <div class="header-right">
+      <input type="text" placeholder="What are you looking for?" />
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <i class="fa-solid fa-basket-shopping"></i>
+      <i onclick="func1()" class="fa-solid fa-user"></i>
+      <div class="fff"></div>
+      <form id="myform">
+        <span>username</span>
+      </form>
+      <a onclick="func()">Log in</a>
+    </div> -->
+    <div class="search">
+      <input class="inp1" type="text" placeholder="What are you looking for?">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <i class="fa-solid fa-basket-shopping"></i>
+      <i onclick="func1()" class="fa-solid fa-user"></i>
+      <form id="myform">
+        <span>username</span>       
+      </form>
+      <button class="btn-login" onclick="func()">Log in</button>
+    </div>
+  </header>
+
+  <div class="signup-wrapper">
+    <form id="myform" class="signup-form">
+      <h2>Create Accaunt</h2>
+      <label for="name">Name</label>
+      <input class="inp1" type="text" id="name" placeholder="">
+
+      <label for="surname">surname</label>
+      <input class="inp2" type="text" id="surname" placeholder="">
+
+      <label for="email">Email</label>
+      <input class="inp3" type="email" id="email" placeholder="">
+
+      <label for="username">username</label>
+      <input class="inp4" type="text" id="username" placeholder="">
+
+      <label for="password">password</label>
+      <input class="inp5" type="password" id="password" placeholder="">
+
+      <button type="submit" class="create-btn">Create Accaunt</button>
+      <p class="login-link">Alredy have Accaunt? <a href="./login.html">Войти</a></p>
+    </form>
+  </div>
+    <script src="./signup.js"></script>
+</body>
+</html>
