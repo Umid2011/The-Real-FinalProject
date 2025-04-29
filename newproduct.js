@@ -17,7 +17,7 @@ input.addEventListener("input", showImagePreview);
     let price = document.getElementById("price").value;
     let imageUrl = document.getElementById("imageUrl").value;
     if (!brand || !model || !category || !description || !price || !imageUrl) {
-        alert("Nah sorry, bro do again!");
+        alert("try again");
         return;
     }
     let product = {
@@ -36,3 +36,23 @@ input.addEventListener("input", showImagePreview);
     alert("Successful!");
     window.location.href = "./productsale.html";
 }
+
+window.addEventListener("DOMContentLoaded", function() {
+    let nickname = localStorage.getItem("nickname");
+  
+    if (nickname) {
+      let vvv = document.getElementsByClassName("vvv")[0];
+      let btn = document.getElementById("btn2");
+      let usernameSpan = document.querySelector("#myform span");
+  
+      if (vvv) {
+        vvv.innerHTML = nickname;
+      }
+      if (btn) {
+        btn.innerHTML = "Log Out";
+      }
+      if (usernameSpan) {
+        usernameSpan.textContent = nickname;
+      }
+    }
+  });
