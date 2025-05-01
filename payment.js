@@ -7,6 +7,9 @@ function func1(){
 function func2(){
     window.location.href = "./newproduct.html"
 }
+function buscet(){
+  window.location.href = "./bascet.html"
+}
 window.addEventListener("DOMContentLoaded", function() {
     let nickname = localStorage.getItem("nickname");
   

@@ -8,6 +8,9 @@ function goToUserPage() {
 function func2(){
     window.location.href = "./productsale.html"
 }
+function buscet(){
+    window.location.href = "./bascet.html"
+}
 let num = localStorage.getItem("num");
 
 for (let i = 0; i < num; i++) {

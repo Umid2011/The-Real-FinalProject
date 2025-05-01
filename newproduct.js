@@ -1,3 +1,6 @@
+function buscet(){
+    window.location.href = "./bascet.html"
+}
 let input = document.getElementById("imageUrl");
 let preview = document.getElementById("previewImage");
 

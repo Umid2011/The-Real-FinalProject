@@ -1,6 +1,9 @@
 function func1(){
   window.location.href = "./user.html"
 }
+function buscet(){
+  window.location.href = "./bascet.html"
+}
 document.querySelector(".signup-form").addEventListener("submit", function (event) {
   event.preventDefault();
 

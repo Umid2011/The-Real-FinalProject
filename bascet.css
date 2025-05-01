@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Segoe UI', sans-serif;
+}
+.top-banner{
+    background-color: #d93939; 
+    color: #fff;              
+    text-align: center;      
+    padding: 10px 0;         
+    font-size: 14px;       
+}
+.top-banner a{
+    color: #fff;             
+    text-decoration: underline;
+    margin-left: 5px;
+}
+.top-line{
+    height: 5px;
+    background-color: #d93939;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 15px 5%;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 40px; 
+}
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.a1{
+    text-decoration: none;
+    color: #333;
+    transition: color 0.2s;
+}
+.a1:hover {
+    color: #d93939;
+}
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.search-container input {
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+.search-container button {
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+.search-container button:hover {
+    background-color: #d93939;
+    color: #fff;
+}
+.hero img{
+    width: auto;
+    height: auto;
+}
+.inp1{
+    padding: 5px 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+}
+.btn-login{
+    padding: 5px 10px;
+    border: 1px solid #d93939;
+    background-color: #DB4444;
+    color: white;
+    border-radius: 4px;
+}
+.custom-footer{
+    background-color: #db4444;
+    color: #fff;
+    padding: 40px 20px 20px;
+} 
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}  
+.footer-column h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.footer-column h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}  
+.footer-column p{
+    margin: 5px 0;
+    font-size: 14px;
+} 
+.subscribe-form{
+    display: flex;
+    margin-top: 10px;
+    color: black;
+} 
+.subscribe-form input{
+    padding: 8px;
+    border: 1px solid #fff;
+    width: 150px;
+    color: black;
+}
+.copyright{
+    text-align: center;
+}
+.search {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+.btn-login{
+    padding: 5px 10px;
+    border: 1px solid #d93939;
+    background-color: #DB4444;
+    color: white;
+    border-radius: 4px;
+}
+
+
+
+
+  
+  .cart-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+  }
+  
+  th, td {
+    border-bottom: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  img {
+    max-width: 100px;
+    height: auto;
+  }
+  
+  
+  button {
+    padding: 8px 12px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #c0392b;
+  }
+  
+  .cart-summary {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+  
+  .cart-summary h2 {
+    margin-top: 0;
+  }
+  
+  .cart-summary p {
+    margin: 10px 0;
+  }
+  
+  .cart-summary button {
+    margin-top: 10px;
+    width: 100%;
+  }
+  
