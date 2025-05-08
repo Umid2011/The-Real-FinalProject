@@ -48,13 +48,13 @@ function loadProducts() {
 }
 document.addEventListener("click", function(e) {
   if (e.target.classList.contains("butt1")) {
-    e.target.closest("tr").remove(); 
+    e.target.closest("tr").remove();
   }
 });
 function updateCartTotal() {
   let products = JSON.parse(localStorage.getItem("products"));
   let subtotal = products.reduce((sum, product) => {
-    return sum + parseFloat(product.price || 0);
+    return sum + parseFloat(product.price);
   }, 0);
   let shipping = products.length * 5;
   let total = subtotal + shipping;
