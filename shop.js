@@ -35,10 +35,10 @@ window.addEventListener("DOMContentLoaded", function() {
   
     buttons.forEach((btn, index) => {
       btn.addEventListener('click', () => {
-        const card = cards[index];
-        const img = card.querySelector('img').src;
-        const name = card.querySelector('p:nth-of-type(1)').textContent;
-        const price = card.querySelector('.price').textContent;
+        let card = cards[index];
+        let img = card.querySelector('img').src;
+        let name = card.querySelector('p:nth-of-type(1)').textContent;
+        let price = card.querySelector('.price').textContent;
   
         const product = { img, name, price, quantity: 1 };
         let itemExists = false;
@@ -64,7 +64,7 @@ window.addEventListener("DOMContentLoaded", function() {
     });
   }
   function setupProductClick() {
-    const cards = document.querySelectorAll('.product-card');
+    let cards = document.querySelectorAll('.product-card');
     cards.forEach(card => {
       const img = card.querySelector('img');
       img.style.cursor = 'pointer';
@@ -74,7 +74,7 @@ window.addEventListener("DOMContentLoaded", function() {
     });
   }
   function updateCart() {
-    const container = document.getElementById('cart-container');
+    let container = document.getElementById('cart-container');
     if (!container) return;
     container.innerHTML = '';
     for (let i = 0; i < localStorage.length; i++) {
@@ -83,13 +83,6 @@ window.addEventListener("DOMContentLoaded", function() {
         const item = JSON.parse(localStorage.getItem(key));
         const div = document.createElement('div');
         div.classList.add('cart-item');
-        div.innerHTML = `
-          <img src="${item.img}" class="cart-img" alt="">
-          <div class="cart-info">
-            <p class="cart-name">${item.name}</p>
-            <p class="cart-price">${item.price}</p>
-          </div>
-        `;
         container.appendChild(div);
       }
     }

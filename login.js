@@ -76,8 +76,6 @@ document.querySelector(".signup-form1").addEventListener("submit", function (eve
 window.addEventListener("DOMContentLoaded", function() {
   let nickname = localStorage.getItem("nickname");
   if (nickname) {
-    // let usernameSpan = document.querySelector("#myform span");
-    // usernameSpan.textContent = nickname;
     let usernameSpan = document.getElementById("user-nickname");
 usernameSpan.textContent = nickname;
   }
