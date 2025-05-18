@@ -70,7 +70,9 @@ window.addEventListener("DOMContentLoaded", function() {
       tbody.append(tr);
     }
   }
-  
+  function func1(){
+    window.location.href = "./user.html";
+  }
   updateTotalDisplay();
   localStorage.setItem("nz", suball.toFixed(2));
   
