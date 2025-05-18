@@ -9,7 +9,9 @@ function func1() {
 function func2() {
   window.location.href = "./newproduct.html";
 }
-
+function func89() {
+  window.location.href = "./bascet.html";
+}
 function func3() {
   window.location.href = "./payment.html";
 }
@@ -51,6 +53,9 @@ document.addEventListener("click", function(e) {
     e.target.closest("tr").remove();
   }
 });
+  function func1(){
+    window.location.href = "./user.html";
+  }
 function updateCartTotal() {
   let products = JSON.parse(localStorage.getItem("products"));
   let subtotal = products.reduce((sum, product) => {

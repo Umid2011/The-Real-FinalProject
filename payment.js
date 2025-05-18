@@ -10,6 +10,11 @@ function func2(){
 function buscet(){
   window.location.href = "./bascet.html"
 }
+function func11(){
+  window.location.href = "./index.html";
+  localStorage.removeItem("custom 1747578192090")
+  localStorage.removeItem("custom 1747578190221")
+}
 window.addEventListener("DOMContentLoaded", function() {
     let nickname = localStorage.getItem("nickname");
   

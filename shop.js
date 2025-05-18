@@ -30,8 +30,8 @@ window.addEventListener("DOMContentLoaded", function() {
     }
   });
   function setupCartButtons() {
-    const buttons = document.querySelectorAll('.add-to-cart');
-    const cards = document.querySelectorAll('.product-card');
+    let buttons = document.querySelectorAll('.add-to-cart');
+    let cards = document.querySelectorAll('.product-card');
   
     buttons.forEach((btn, index) => {
       btn.addEventListener('click', () => {
@@ -40,10 +40,10 @@ window.addEventListener("DOMContentLoaded", function() {
         let name = card.querySelector('p:nth-of-type(1)').textContent;
         let price = card.querySelector('.price').textContent;
   
-        const product = { img, name, price, quantity: 1 };
+        let product = { img, name, price, quantity: 1 };
         let itemExists = false;
         for (let i = 0; i < localStorage.length; i++) {
-          const key = localStorage.key(i);
+          let key = localStorage.key(i);
           if (key.startsWith('custom')) {
             const existing = JSON.parse(localStorage.getItem(key));
             if (existing.name === product.name && existing.price === product.price) {
@@ -55,7 +55,10 @@ window.addEventListener("DOMContentLoaded", function() {
         if (itemExists) {
           alert(`${product.name} уже в корзине!`);
         } else {
-          const key = 'custom ' + Date.now();
+          for(c = 0; c=>10; c++){
+            let count = 1;
+          }
+          let key = "custom"+ count;
           localStorage.setItem(key, JSON.stringify(product));
           alert(`${product.name} добавлен в корзину!`);
           updateCart();
