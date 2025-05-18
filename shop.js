@@ -55,14 +55,14 @@ window.addEventListener("DOMContentLoaded", function() {
         if (itemExists) {
           alert(`${product.name} уже в корзине!`);
         } else {
-          for(c = 0; c=>10; c++){
-            let count = 1;
-          }
-          let key = "custom"+ count;
-          localStorage.setItem(key, JSON.stringify(product));
-          alert(`${product.name} добавлен в корзину!`);
-          updateCart();
-        }
+        let count = Number(localStorage.getItem("customCount"));
+        count++;
+       let key = "custom" + count;
+       localStorage.setItem(key, JSON.stringify(product));
+       localStorage.setItem("customCount", count);
+       alert(`${product.name} добавлен в корзину!`);
+      updateCart();
+}
       });
     });
   }
